@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=yes">
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="f.css"> 
+   
+    <link rel="shortcut icon" href="favicon.png" />
+    <title>ACES</title>
+    
+    </head>
+    <body>
+    <div class="aces" >
+
+    
+      <input id="color" placeholder="Enter color">
+    
+  
+   
+      <button >Submit</button>
+
+ 
+</div>
+         <script type="text/javascript">
+    
+             document.querySelector("button").addEventListener("click",
+             function()
+                                                               
+             { var str=document.getElementById("color").value;
+               
+              document.querySelector("div").style.background=str;
+              
+               
+             }
+              
+                )
+        </script>
+        </body>
